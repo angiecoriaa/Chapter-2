@@ -1,0 +1,13 @@
+/**Angelica Coria
+ * 9/4/17
+ * 2.7 Miles to Kilometers
+ * */
+ public class MilesToKilometers
+ {
+    public static void main(String args[]) 
+    {double miles; double conversionVal = 1.60935; double kilometer;
+     miles = 5;
+     kilometer = miles*conversionVal;
+     System.out.println("Miles: " + miles + " = " + "Kilometers " + kilometer);
+    }//End main method
+}//End public class
