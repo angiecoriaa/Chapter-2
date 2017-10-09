@@ -1,0 +1,31 @@
+/** Angelica coria
+ * Period:5
+ * Heron's Formula 
+ */
+ import java.util.*;
+ public class HeronsFrm
+ {
+     public static void main (String[]args)
+     {
+         double s, a, b, c, area;
+         Scanner love = new Scanner (System.in);
+         
+         System.out.println ("Enter your \" A \" value: ");
+         a = love.nextDouble();
+         
+         System.out.println ("Enter your \" B \" value: ");
+         b = love.nextDouble();
+         
+         System.out.println ("Enter your \" C \" value:");
+         c = love.nextDouble();
+        
+        s = (a + b + c) * .5 ;
+        
+        System.out.println ("Your perimeter is value is: " + s);
+        
+        area = Math.sqrt( s * (s - a) * (s - b) * (s - c) );
+        
+        System.out.print ("Your area of a triangle is: " + area);
+        
+     }
+ }
