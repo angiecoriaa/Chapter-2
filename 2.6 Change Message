@@ -1,0 +1,16 @@
+/**Angelica Coria
+ * 9/4/17
+ * 2.6 change Message
+ * */
+ public class TwoStrings
+ {
+    public static void main(String args[]) 
+    {
+        String phrase = new String ("HAKUNA MATATA IT MEANS NO WORRIES FOR THE REST OF YOUR DAYS");
+        String mutation1; String mutation2;
+        
+        mutation1 = phrase.substring (23, 33);
+        mutation2 = phrase.replace('A','4');
+        System.out.println(mutation1);
+        System.out.println(mutation2);
+    }//End main method
