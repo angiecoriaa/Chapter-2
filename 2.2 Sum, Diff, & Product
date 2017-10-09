@@ -1,0 +1,18 @@
+/**Angelica Coria
+ * 8/25/17
+ * 2.2 Sum Difference and Product
+ * */
+ public class MyClass
+ {
+    public static void main(String args[])
+    {
+        double x=10.0;
+        double y=25.0;
+        double  sum = x+y;
+        System.out.println("The Sum of is " + sum);
+        double  difference =x-y;
+        System.out.println("The difference is " + difference);
+        double product =x*y;
+        System.out.println("The Product is " + product);
+    }//End main method
+}//End Public Class 2.2
