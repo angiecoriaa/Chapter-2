@@ -1,0 +1,21 @@
+/**
+ * Angelica Coria
+ * 9/1/17
+ * 2.4 Application
+**/
+//***************************************************************************************************
+//  Time from hours to minutes to seconds. 
+//***************************************************************************************************
+public class Application
+{
+    public static void main (String[] args)
+    {
+        int hours = (4*60)*60;
+        int minutes = (4*60);
+        int seconds = (60);
+        int varible_equal = hours + minutes +seconds; 
+        
+        System.out.println(" varible_equal seconds " + varible_equal);
+        
+    }// End method
+}// End public class Application
