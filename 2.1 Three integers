@@ -1,0 +1,17 @@
+/** Angelica Coria
+ * 8/25/17
+ * 2.1 Three integers and prints their average
+ **/
+ public class MyClass
+ {
+    public static void main(String args[])
+    {
+        int x = 22;
+        int y =18;
+        int z= 4;
+        System.out.println ("The Average is");
+        double avg = ( x+y+z) / 3.0;
+
+        System.out.println( avg );
+    }//End main method 
+}//Public Class 2.1 Int and their AVG
