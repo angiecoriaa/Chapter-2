@@ -1,0 +1,26 @@
+/**Angelica Coria
+ * 8/25/17
+ *2.3 Temp Converter  
+ **/
+ public class TempConverter
+ {
+     //-------------------------------------------------------------------
+     //Compute the Farenheit equivalent of a speific Celsius
+     //value using the formula C(F)= (F-32) * (5/9).
+     //-------------------------------------------------------------------
+     public static void main(String args[]) 
+     {
+        final int BASE =32;
+        final double CONVERSION_FACTOR = 5.0/9.0;
+        
+         int fahrenheitTemp = 24; // value to convert
+         double celsiusTemp;
+         
+        celsiusTemp =(fahrenheitTemp - BASE )  * CONVERSION_FACTOR;
+        
+        System.out.println(" Fahrenheit Equivalent: " +  fahrenheitTemp);
+        System.out.println(" Celsius Temperature: " + celsiusTemp);
+       
+         
+     }// End main method 
+}//End public class TempConverter
